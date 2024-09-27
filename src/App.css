@@ -9,19 +9,12 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: spin 20s linear infinite, shake 1s ease-in-out infinite;
+    animation: linear infinite, shake 1s ease-in-out infinite;
+  }
+  h1 {
+    animation: linear infinite, shake 1s ease-in-out infinite;
   }
 }
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 @keyframes shake {
   0% {
     transform: translateX(0);
